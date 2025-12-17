@@ -1,0 +1,14 @@
+cat <<EOF > .gitignore
+# Python
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+drift-env/
+env/
+venv/
+
+# Secrets
+.env
+EOF
